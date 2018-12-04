@@ -1,4 +1,4 @@
-SELECT DISTINCT last_name FROM
+SELECT DISTINCT last_name FROM employees.employees
 order by last_name desc
 LIMIT 10;
 
